@@ -1,0 +1,19 @@
+.segment-toolbar {
+  ion-segment {
+    ion-segment-button {
+      --indicator-color: none;
+      --indicator-height: 0;
+      text-transform: unset;
+
+      font-size: 15px;
+      line-height: 17px;
+      letter-spacing: -0.16px;
+      color: #c2c5c9;
+
+      &.segment-button-checked {
+        font-weight: 600;
+        color: var(--ion-color-dark);
+      }
+    }
+  }
+}

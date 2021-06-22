@@ -1,0 +1,18 @@
+.SliderItem {
+  height: 448px;
+  position: relative;
+
+  ion-card {
+    height: 100%;
+    padding: 13px;
+    margin-inline: 0px;
+    background: #fff;
+    border-radius: 24px;
+  }
+
+  img {
+    height: 100%;
+    object-fit: none;
+    border-radius: 24px;
+  }
+}

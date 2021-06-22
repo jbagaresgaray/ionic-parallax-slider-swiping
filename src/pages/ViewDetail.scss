@@ -1,0 +1,50 @@
+#view-detail-page {
+  ion-content {
+    position: relative;
+    --background: none;
+    background-image: url("../assets/images/image.svg");
+    background-color: #fff;
+    background-position: -122.14px -110.9px;
+    background-repeat: no-repeat;
+    background-size: 619px 918px;
+
+    ion-header {
+      position: absolute;
+
+      ion-toolbar {
+        background: transparent;
+        --background: transparent;
+      }
+
+      .btn-dismiss {
+        width: 32px;
+        height: 32px;
+        --color: #fff;
+        --border-radius: 100%;
+        --background: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    .UserAvatar {
+      position: relative;
+      z-index: 12;
+      height: 140px;
+      width: 140px;
+      border: 14px solid #fff;
+      margin: 0 auto;
+      margin-top: 7em;
+    }
+
+    .bg-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .card-profile {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}

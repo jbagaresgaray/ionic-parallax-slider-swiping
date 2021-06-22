@@ -1,0 +1,49 @@
+.card-profile {
+  margin-inline: 0px;
+  border-radius: 34px 34px 0px 0px;
+  box-shadow: unset;
+
+  ion-card-header {
+    padding: 30px 40px 16px;
+
+    ion-card-title {
+      padding-bottom: 16px;
+      color: #323537;
+      font-size: 32px;
+      line-height: 36px;
+      letter-spacing: 0.23px;
+      font-weight: 600;
+    }
+
+    ion-card-subtitle {
+      text-transform: unset;
+
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.11px;
+      color: #323537;
+      font-weight: 400;
+    }
+  }
+
+  ion-card-content {
+    padding-inline-start: 40px;
+    padding-inline-end: 40px;
+  }
+
+  .social-button {
+    height: 40px;
+    --border-radius: 5px;
+    --padding-start: 1.4em;
+    --padding-end: 1.4em;
+
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.11px;
+  }
+
+  .images-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
